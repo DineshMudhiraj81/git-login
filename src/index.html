@@ -122,8 +122,7 @@
             <tbody>
               <tr ng-repeat="student in students">
                 <td>
-                  <input type="checkbox" ng-model="student.completed" ng-change="toggleStatus(student)" />
-                  {{ student.stname }} - <span>{{ student.completed ? 'Completed' : 'Pending' }}</span>
+                  {{ student.stname }} 
                 </td>
                 <td>{{ student.course }}</td>
                 <td>
